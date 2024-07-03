@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:15px 30px;
+    font-size: 17px;
+    padding:8px;
+}
+
+.container{
+    background-color: bisque;
+    padding: 5px 20px 15px 20px;
+    border:1px solid lightcyan;
+    border-radius: 4px;
+     
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid blanchedalmond;
+    border-radius: 5px;
+    margin:10px;
+}
+
+fieldset{
+    background-color: beige;
+    border:1px solid burlywood;
+}
+
+.mainh{
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color: cornsilk;
+    color:black;
+    font-size: 45;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    width:100%;
+}
+input[type="submit"]:hover{
+    background-color: aquamarine;
+}
+
